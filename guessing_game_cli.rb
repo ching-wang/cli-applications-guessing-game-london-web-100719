@@ -9,5 +9,4 @@ def run_guessing_game()
     if guess_result == "exit"
      puts "Goodbye!"
    end 
- end 
 end 
