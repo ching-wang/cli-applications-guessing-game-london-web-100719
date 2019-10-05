@@ -3,4 +3,7 @@ def run_guessing_game()
   puts "Guess a number between 1 to 6"
   guess_result = gets.chomp 
   if guess_result == ramdom_number
+     puts "Your guessed the correct number!"
+   else 
+     puts "Sorry! The computer guessed #{ramdom_number}"
 end 
