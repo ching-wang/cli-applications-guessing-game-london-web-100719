@@ -4,9 +4,10 @@ def run_guessing_game()
   guess_result = gets.chomp 
   if guess_result == ramdom_number
      puts "Your guessed the correct number!"
-   else 
+    else 
      puts "Sorry! The computer guessed #{ramdom_number}"
-   if guess_result == "exit"
+    if guess_result == "exit"
      puts "Goodbye!"
    end 
+ end 
 end 
