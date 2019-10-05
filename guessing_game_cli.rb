@@ -6,6 +6,7 @@ def run_guessing_game()
      puts "Your guessed the correct number!"
    else 
      puts "Sorry! The computer guessed #{ramdom_number}"
-     
+   if guess_result == "exit"
+     puts "Goodbye!"
    end 
 end 
